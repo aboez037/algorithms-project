@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.class
+*.jar
+.idea/
+*.iml
+out/
+build/
+dist/
+.env
+.venv/
+target/
