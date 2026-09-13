@@ -1,0 +1,26 @@
+---
+description: Project context for the Kanban + algorithms course project
+alwaysApply: true
+---
+
+# algorithms-project — Cursor context
+
+Before writing or refactoring code, read and follow:
+
+- `PROJECT.md` (source of truth for requirements, data model, algorithms)
+- `دليل_الأعضاء.md` (per-member tasks)
+
+## Hard constraints
+
+- Implement **Merge Sort** and **Quick Sort** manually for the graded sorting feature. Do **not** use language/library built-in sort APIs for that requirement.
+- Effort/total-hours calculation must be **recursive Divide and Conquer** over the task tree (`parentId` / children), not only a flat loop with no tree divide step.
+- Kanban statuses are only: `NEW`, `IN_PROGRESS`, `DONE`.
+- Keep the shared task field names from `PROJECT.md` unless the whole team agrees to change them.
+- Do not document workload percentages or “who does more” in repo files; roles and tasks only.
+- Tech stack may still be undecided; propose a simple option and confirm before scaffolding a large app.
+
+## Team roles (summary)
+
+- Mohammed: users/auth, Kanban board, activity log
+- Bilal: projects, tasks, assignment
+- aboez037: task hierarchy, sorting + timing, D&C effort, report + complexity notes
